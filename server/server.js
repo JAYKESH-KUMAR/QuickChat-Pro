@@ -49,6 +49,7 @@ app.use(
   cors({
     origin: [
       "https://chat-app-tau-inky-63.vercel.app",
+       "https://chat-84c8b4r2h-jaykesh-kumars-projects.vercel.app",
       "http://localhost:5173"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
