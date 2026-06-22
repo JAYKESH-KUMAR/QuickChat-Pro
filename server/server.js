@@ -45,17 +45,8 @@ io.on("connection", (socket) => {
 
 // Middleware setup
 app.use(express.json({ limit: "4mb" }));
-app.use(
-  cors({
-    origin: [
-      "https://chat-app-tau-inky-63.vercel.app",
-       "https://chat-84c8b4r2h-jaykesh-kumars-projects.vercel.app",
-      "http://localhost:5173"
-    ],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-  })
-);
+
+app.use(cors());
 
 app.use("/api/status", (req, res) => res.send("Server is live "));
 app.use("/api/auth", userRouter);
