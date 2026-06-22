@@ -48,7 +48,8 @@ app.use(express.json({ limit: "4mb" }));
 app.use(
   cors({
     origin: [
-      "https://chat-app-tau-inky-63.vercel.app"
+      "https://chat-app-tau-inky-63.vercel.app",
+      "http://localhost:5173"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
