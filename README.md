@@ -423,40 +423,23 @@ Supports fetching chat users, loading conversations, and sending messages.
 \---
 
 
+## Screenshots
 
-\## Screenshots
+### Login and Signup
 
+![Authentication Screen](screenshots/auth.png)
 
+### Chat Dashboard
 
-\### Login and Signup
+![Chat Dashboard](screenshots/chat-dashboard.png)
 
+### Real-Time Conversation
 
+![Real-Time Conversation](screenshots/login.png)
 
-!\[Authentication Screen](screenshots/auth.png)
+### Profile Management
 
-
-
-\### Chat Dashboard
-
-
-
-!\[Chat Dashboard](screenshots/chat-dashboard.png)
-
-
-
-\### Real-Time Conversation
-
-
-
-!\[Real-Time Conversation](screenshots/login.png)
-
-
-
-\### Profile Management
-
-
-
-!\[Profile Management](screenshots/profile.png)
+![Profile Management](screenshots/profile.png)
 
 
 
