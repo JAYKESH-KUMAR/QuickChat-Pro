@@ -425,7 +425,7 @@ Supports fetching chat users, loading conversations, and sending messages.
 
 ## Screenshots
 
-### Login and Signup
+### Real-Time Conversation
 
 ![Authentication Screen](screenshots/auth.png)
 
@@ -433,7 +433,8 @@ Supports fetching chat users, loading conversations, and sending messages.
 
 ![Chat Dashboard](screenshots/chat-dashboard.png)
 
-### Real-Time Conversation
+
+### Login and Signup
 
 ![Real-Time Conversation](screenshots/login.png)
 
